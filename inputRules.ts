@@ -119,6 +119,12 @@ export const arrowRules: InputRule[] = [
     to: (settings) => settings.rightArrow,
     contextMatch: /-$/,
   },
+  {
+    trigger: "<",
+    from: "<>",
+    to: (settings) => settings.doubleArrow,
+    contextMatch: /$$/,
+  },
 ];
 
 // Guillemet

@@ -53,6 +53,7 @@ const DEFAULT_SETTINGS: SmartTypographySettings = {
 
   leftArrow: "←",
   rightArrow: "→",
+  doubleArrow: "↔",
 };
 
 export default class SmartTypography extends Plugin {

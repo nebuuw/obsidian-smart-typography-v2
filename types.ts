@@ -16,4 +16,5 @@ export interface SmartTypographySettings {
   closeGuillemet: string;
   leftArrow: string;
   rightArrow: string;
+  doubleArrow: string;
 }
