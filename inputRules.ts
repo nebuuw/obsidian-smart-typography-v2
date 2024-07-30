@@ -123,7 +123,7 @@ export const arrowRules: InputRule[] = [
     trigger: "<",
     from: "<>",
     to: (settings) => settings.doubleArrow,
-    contextMatch: /$$/,
+    contextMatch: /<$/,
   },
 ];
 
